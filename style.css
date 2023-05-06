@@ -29,7 +29,7 @@
 
 .menu {
     display: flex;
-    background: linear-gradient(#073d5e,#a3a284);
+    background: linear-gradient(#073d5e,#074d5e);
     justify-content:flex-end;
     align-items: flex-end;
     
@@ -59,7 +59,8 @@ h1,h2{
     padding:2%;
 }
 .quienes p{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: "Quicksand";
+    font-weight: 800;
     padding:2%;
 
 }
