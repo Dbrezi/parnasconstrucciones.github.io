@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding:0;
+   
+}
+.menu{ grid-area: menu;}
+.imagen{grid-area: imagen;}
+.quienes{grid-area: quienes;}
+.proyectos{grid-area: proyectos;}
+.imagen2{grid-area: imagen2;}
+.footer{grid-area: footer;}
+
+.contenedor {
+    display: grid;
+    grid-template: 10% 20% 20% 20% 20% 5% 5%/ 1fr 1fr 1fr 1fr;
+ 
+   
+    grid-template-areas:"menu menu menu menu"
+                        "imagen imagen imagen imagen"
+                        "quienes quienes quienes quienes"
+                        "proyectos proyectos proyectos proyectos"
+                        "imagen2 imagen2 imagen2 imagen2"
+                        "footer footer footer footer";
+                        
+    background-color: #fafafa;
+   
+}
+
+
+.menu {
+    display: flex;
+    background: linear-gradient(#073d5e,#a3a284);
+    justify-content:flex-end;
+    align-items: flex-end;
+    
+}
+.menu>a {
+    text-decoration: none;
+    font-family: helvetica, sans-serif;
+    font-size: larger;
+    font-weight:500;
+    color:#f0e9e9;
+    margin: 2rem;
+    
+}
+.hijo:hover{
+    
+ transform:scale(1.3);
+ opacity: 0.7;
+      
+}
+.imagen{
+    display: flex;
+    justify-content: center;
+    
+}
+h1,h2{
+    font-family: helvetica,arial;
+    padding:2%;
+}
+.quienes p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding:2%;
+
+}
+
+
+.iconos{
+    display: inline-flex;
+    justify-content:center;
+    align-items: flex-end;
+}
+.iconos li{
+    padding: 2%;
+}
