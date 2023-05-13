@@ -86,6 +86,17 @@ body {
   text-align: center;
 }
 
+.separator-D {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: #073d5e;
+  font-size: 20px;
+  color: #a3a284;
+}
+
 
 .staff-member {
   margin: 20px;
