@@ -113,7 +113,7 @@ ul {
     outline: 0;
 }
 
-/* Contact Info */
+
 .contact-info {
     background: #000;
 }
@@ -123,7 +123,7 @@ ul {
     margin: 0 0 1rem 0;
 }
 
-/* Large Size */
+
 @media(min-width: 700px) {
     body {
         padding: 0 4em;
