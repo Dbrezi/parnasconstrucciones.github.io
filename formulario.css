@@ -1,6 +1,10 @@
 * {
     box-sizing: border-box;
 }
+
+
+
+
 .menu {
     display: flex;
     background: linear-gradient(#073d5e,#074d5e);
@@ -9,7 +13,7 @@
     Margin:0;
     
 }
-.menu>a {
+.menu a {
     text-decoration: none;
     font-family: helvetica, sans-serif;
     font-size: larger;
@@ -113,7 +117,7 @@ ul {
     outline: 0;
 }
 
-
+/* Contact Info */
 .contact-info {
     background: #000;
 }
@@ -123,7 +127,7 @@ ul {
     margin: 0 0 1rem 0;
 }
 
-
+/* Large Size */
 @media(min-width: 700px) {
     body {
         padding: 0 4em;
@@ -141,3 +145,14 @@ ul {
         text-align: left;
     }
 }
+
+
+      
+.separator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #073d5e;
+  }
