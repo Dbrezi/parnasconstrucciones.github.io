@@ -124,7 +124,7 @@ body {
   }
 
   50% {
-    transform: rotateY(180deg);
+    transform: rotateY(25deg);
   }
 
   100% {
