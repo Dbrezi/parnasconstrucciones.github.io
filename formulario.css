@@ -2,6 +2,9 @@
     box-sizing: border-box;
 }
 
+
+
+
 .menu {
     display: flex;
     background: linear-gradient(#073d5e,#074d5e);
@@ -114,7 +117,7 @@ ul {
     outline: 0;
 }
 
-
+/* Contact Info */
 .contact-info {
     background: #000;
 }
