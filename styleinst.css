@@ -75,14 +75,14 @@ body {
 .separator i {
   font-size: 50px;
   color: #073d5e;
-  margin: 20px;
+  margin: 10px;
 }
 
 .separator li {
   list-style: none;
   font-size: 24px;
   font-weight: bold;
-  margin: 20px;
+  margin: 10px;
   text-align: center;
 }
 
