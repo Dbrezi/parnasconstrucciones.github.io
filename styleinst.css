@@ -9,7 +9,8 @@ body {
   font-family: 'Quicksand', sans-serif;
   font-size: 18px;
   color: #333333;
-  padding: 50px;
+  padding: 40px;
+  border-radius: 7px;
 }
 
 .section-title {
@@ -20,11 +21,13 @@ body {
   margin-bottom: 50px;
   text-align: center;
   text-transform: uppercase;
+ 
 }
 
 .staff-container {
   color: #000;
   background-color: #f4f4ef;
+  border-radius: 7px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,10 +54,11 @@ body {
   max-width: 1600px;
   font-family: 'Quicksand', sans-serif;
   background-color: #c2c2bc;
-  margin: auto;
+  border-radius: 7px;
+
   padding: 0 20px;
   font-size: 18px;
-  padding: 50px;
+  padding: 40px;
 }
 
 .description-container h2 {
@@ -70,7 +74,11 @@ body {
   flex-wrap: wrap;
   padding: 20px;
   background-color: #a3a284;
+
+  border-radius: 7px;
 }
+
+
 
 .separator i {
   font-size: 50px;
