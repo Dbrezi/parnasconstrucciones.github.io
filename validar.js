@@ -1,19 +1,16 @@
 function validarFormulario() {
-
-  var formulario = document.getElementById("miFormulario")
+  var formulario = document.getElementById("contactform")
   var nombre = formulario.Nombre
-  var email = formulario.Mail
+  var email = formulario._replyto
   var telefono = formulario.Teléfono
   var asunto = formulario.Asunto
   var mensaje = formulario.Mensaje
 
-  
   if (nombre.value === "") {
     alert("Por favor ingrese su nombre")
     nombre.focus()
     return false
   }
-
 
   if (email.value === "") {
     alert("Por favor ingrese su email")
@@ -29,17 +26,15 @@ function validarFormulario() {
     return false
   }
 
-  
   if (telefono.value === "") {
-    alert("Por favor ingrese su teléfono");
-    telefono.focus();
+    alert("Por favor ingrese su teléfono")
+    telefono.focus()
     return false;
   } else if (!/^\d{10}$/.test(telefono.value)) {
-    alert("Por favor ingrese un teléfono válido de 10 dígitos");
-    telefono.focus();
-    return false;
+    alert("Por favor ingrese un teléfono válido de 10 dígitos")
+    telefono.focus()
+    return false
   }
-
 
   if (asunto.value === "") {
     alert("Por favor ingrese un asunto")
@@ -47,29 +42,30 @@ function validarFormulario() {
     return false
   }
 
-
   if (mensaje.value === "") {
     alert("Por favor ingrese un mensaje")
     mensaje.focus()
     return false
   }
 
- const $contactform = document.querySelector('#contactform');
-  $contactform.addEventListener('submit', handleSubmit);
+  const $contactform = document.querySelector("#contactform")
+  $contactform.addEventListener("submit", handleSubmit)
 
   async function handleSubmit(event) {
     event.preventDefault();
-    const form = new FormData(this);
+    const form = new FormData(this)
     const response = await fetch(this.action, {
       method: this.method,
       body: form,
       headers: {
-        'Accept': 'application/json'
-      }
-    });
+        Accept: "application/json",
+      },
+    })
     if (response.ok) {
-      this.reset();
-      alert('Gracias por contactarnos. Te escribiremos a la brevedad.');
+      this.reset()
+      alert("Gracias por contactarnos. Te escribiremos a la brevedad.")
     }
   }
 
+  return true
+}
