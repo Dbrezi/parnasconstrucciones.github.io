@@ -42,7 +42,7 @@ body {
 }
 
 .box {
-  background-color: #073d5e;
+  background: linear-gradient(#073d5e,#074d5e);
   color: #c3c3be;
   padding: 10px 20px;
   font-size: 22px;
