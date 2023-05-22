@@ -47,9 +47,11 @@ function validarFormulario() {
     mensaje.focus()
     return false
   }
+  return true
 
-  const $contactform = document.querySelector("#contactform")
-  $contactform.addEventListener("submit", handleSubmit)
+ document.addEventListener("DOMContentLoaded", function() {
+    const $contactform = document.querySelector("#contactform")
+    $contactform.addEventListener("submit", handleSubmit)
 
   async function handleSubmit(event) {
     event.preventDefault();
@@ -65,7 +67,7 @@ function validarFormulario() {
       this.reset()
       alert("Gracias por contactarnos. Te escribiremos a la brevedad.")
     }
-  }
+  
 
-  return true
+  
 }
