@@ -43,7 +43,7 @@
 }
 .menu {
     border-radius: 7px;
-    
+    flex-wrap: wrap;
     border-style: ridge;
     display: flex;
     background: linear-gradient(#073d5e,#074d5e);
