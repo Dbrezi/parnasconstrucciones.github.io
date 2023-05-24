@@ -3,22 +3,23 @@
 }
 
 .menu {
-  display: flex;
-  flex-wrap: wrap;
-  background: linear-gradient(#073d5e, #074d5e);
-  justify-content: flex-end;
-  align-items: flex-end;
-  margin: 0;
   border-radius: 7px;
+    flex-wrap: wrap;
+    border-style: ridge;
+    display: flex;
+    background: linear-gradient(#073d5e,#074d5e);
+    justify-content:flex-end;
+    align-items: flex-end;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.5);
 }
 
 .menu a {
   text-decoration: none;
-  font-family: helvetica, sans-serif;
-  font-size: larger;
-  font-weight: 500;
-  color: #f0e9e9;
-  margin: 2rem;
+    font-family: "quicksand";
+    font-size: larger;
+    font-weight:500;
+    color:#f0e9e9;
+    padding: 2rem;
 }
 
 .hijo:hover {
@@ -155,7 +156,7 @@ ul {
     text-align: left;
   }
   
-
+}
 
   @media (min-width: 900px) {
       /* 2° corte 900px */
